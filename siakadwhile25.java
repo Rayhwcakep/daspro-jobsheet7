@@ -19,6 +19,9 @@ public class siakadwhile25 {
             }
             if (nilai > 80 && nilai <= 100) {
                 System.out.println("nilai mahasiswa ke-" + (i + 1 ) + "adalah A");
+                if (nilai > 80) {
+                    System.out.println("bagus pertahankan nilainya");
+                }  
             }
             else if (nilai > 73 && nilai <= 80) {
                 System.out.println("nilai mahasiswa ke-"  + (i + 1 ) + "adalah B+");
